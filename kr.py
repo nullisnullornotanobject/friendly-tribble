@@ -87,6 +87,3 @@ class Wastes(AbstractWastes):
             return cursor.fetchall()
         return "Deleted spend!"
 
-
-a = Wastes
-print(a.read(2, "o"))
