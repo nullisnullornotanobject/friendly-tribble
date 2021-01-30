@@ -86,4 +86,3 @@ class Wastes(AbstractWastes):
             cursor.execute(f"""DELETE FROM SPENDS WHERE type = '{find2}'""")
             return cursor.fetchall()
         return "Deleted spend!"
-
